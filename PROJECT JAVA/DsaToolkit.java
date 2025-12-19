@@ -208,7 +208,7 @@ public class DsaToolkit {
              }
         void bfs(int start){
     boolean[] vis = new boolean[n];
-    Queue<Integer> q = new java.util.LinkedList<>(); // fixed line ✅
+    Queue<Integer> q = new java.util.LinkedList<>(); // fixed line
     q.add(start);
     vis[start] = true;
     System.out.print("BFS: ");
